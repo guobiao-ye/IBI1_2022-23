@@ -1,6 +1,5 @@
 # What does this piece of code do?
-# Answer:
-
+# Answer: The program runs 10 times, obtaining 10 random integers in [2,100], and taking the maximum of these 9 integers to output it.
 # Import libraries
 # randint allows drawing a random number,
 # e.g. randint(1,5) draws a number between 1 and 5
