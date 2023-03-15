@@ -1,11 +1,5 @@
-# Third note on 7/1/21, yes! I can make changes in both directions!!
+In practical 4 I learned how to use git command to set up a working branch and make changes to the branch content on the local computer. I also learned how to use gitHub and set up a static web page on it.
 
-# Second note from 7/1/21, I managed to get changes on the ZJE server onto GitHub but can I make changes on the website and send them back?
+In the process of git practice, I think it is difficult to make clear the relationship between Working directory, local Repository and remote repository.
 
-# Note from 7/1/21, I have cloned this repo onto the ZJE server and am now going to attempt to push it back onto GitHub.
-
-This is an example file for reflection in IBI1_2019-20.
-
-During this course, I have learnt version control, how to navigate Unix-like systems and how to write simple programs in Python.
-
-I have also learnt to write careful instructions when communicating online!
+In the process of building web pages, I think the more difficult is how to input instructions to get the style of the web page.
