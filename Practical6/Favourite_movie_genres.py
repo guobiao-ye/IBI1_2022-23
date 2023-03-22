@@ -5,12 +5,11 @@ print(dictionary)
 
 # Import the matplotlib library
 import matplotlib.pyplot as plt
-# Set the labels, sizes, and explode parameters for the pie chart according to the data in dictionary
-labels = list(dictionary.values())
+# Set the labels and sizes parameters for the pie chart according to the data in dictionary
+labels = list(dictionary.keys())
 sizes = list(dictionary.values())
-explode = (0.1, 0, 0, 0, 0, 0, 0, 0, 0, 0) 
 # Create the pie chart and display it
-plt.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%', shadow=False, startangle=90)
+plt.pie(sizes, labels=labels, autopct='%1.1f%%', shadow=False, startangle=90)
 plt.axis('equal')
 plt.show()
 
