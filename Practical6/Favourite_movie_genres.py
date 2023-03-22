@@ -6,8 +6,8 @@ print(dictionary)
 # Import the matplotlib library
 import matplotlib.pyplot as plt
 # Set the labels, sizes, and explode parameters for the pie chart according to the data in dictionary
-labels = 'Comedy', 'Action', 'Romance', 'Fantasy', 'Science-fiction', 'Horror', 'Crime', 'Documentary', 'History', 'War'
-sizes = [73, 42, 38, 28, 22, 19, 18, 12, 8, 7]
+labels = list(dictionary.values())
+sizes = list(dictionary.values())
 explode = (0.1, 0, 0, 0, 0, 0, 0, 0, 0, 0) 
 # Create the pie chart and display it
 plt.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%', shadow=False, startangle=90)
