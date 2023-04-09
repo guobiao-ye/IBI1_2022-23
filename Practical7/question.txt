@@ -1,0 +1,9 @@
+Qusetion:
+How have new cases and total cases developed over time in the UK?
+
+Location of the code:
+Rows 52 to 62
+
+Discussion:
+The output figure shows zero cases of COVID-19 in the UK before 2020-1-30. 
+Since then, the number of new cases in the UK has increased, and the total cases has increased significantly since 2020-3-20.
