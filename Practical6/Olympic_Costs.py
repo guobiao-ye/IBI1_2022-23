@@ -32,5 +32,6 @@ plt.yticks(np.arange(0, 51, 10))
 
 # Display the plot
 plt.show()
+
 # Print the costs
 print(sorted_costs)
