@@ -1,28 +1,30 @@
-# Summary
+Summary
 
 
-# After conducting a sequence alignment analysis between three species, I obtained the alignment scores and percentages of identical amino acids for each comparison. The findings are as follows:
+After conducting a sequence alignment analysis between three species, I obtained the alignment scores and percentages of identical amino acids for each comparison. The findings are as follows:
 
-# Comparison between the human and the mouse:
-# Alignment Score: 3579
-# Percentage of Identical Amino Acids: 82.11180124223603%
+Comparison between the human and the mouse:
+Alignment Score: 3579
+Percentage of Identical Amino Acids: 82.11180124223603%
 
-# Comparison between the human and the cat:
-# Alignment Score: 3717
-# Percentage of Identical Amino Acids: 85.21739130434783%
+Comparison between the human and the cat:
+Alignment Score: 3717
+Percentage of Identical Amino Acids: 85.21739130434783%
 
-# Comparison between the mouse and the cat:
-# Alignment Score: 3592
-# Percentage of Identical Amino Acids: 81.73913043478261%
-
-
-# From these findings, we can observe that the human and cat sequences have the highest alignment score (3717) and the highest percentage of identical amino acids (85.22%) among the three comparisons. This indicates a closer relationship between the human and cat at the sequence level compared to the other two pairs.
-# The higher alignment score and percentage of identical amino acids suggest a greater similarity in the amino acid sequences of the proteins being compared. This similarity may indicate a shared evolutionary history or a more recent common ancestor between humans and cats. It suggests that humans and cats are likely to have more conserved genetic and functional elements compared to humans and mice or mice and cats.
-# However, it's important to note that sequence alignment alone cannot provide a complete understanding of evolutionary relationships. Other factors such as genetic divergence, phylogenetic analysis, and additional genomic data would be required to draw more definitive conclusions about the evolutionary relationships between these species.
+Comparison between the mouse and the cat:
+Alignment Score: 3592
+Percentage of Identical Amino Acids: 81.73913043478261%
 
 
+From these findings, we can observe that the human and cat sequences have the highest alignment score (3717) and the highest percentage of identical amino acids (85.22%) among the three comparisons. This indicates a closer relationship between the human and cat at the sequence level compared to the other two pairs.
 
-# The code I use is as follows:
+The higher alignment score and percentage of identical amino acids suggest a greater similarity in the amino acid sequences of the proteins being compared. This similarity may indicate a shared evolutionary history or a more recent common ancestor between humans and cats. It suggests that humans and cats are likely to have more conserved genetic and functional elements compared to humans and mice or mice and cats.
+
+However, it's important to note that sequence alignment alone cannot provide a complete understanding of evolutionary relationships. Other factors such as genetic divergence, phylogenetic analysis, and additional genomic data would be required to draw more definitive conclusions about the evolutionary relationships between these species.
+
+
+
+The code I use is as follows (I uploaded the python file 'Alignment.py' to Practical11 folder on my Github):
 
 
 
@@ -107,8 +109,3 @@ print('\n\n')
 align_sequences(human_sequence, cat_sequence)
 print('\n\n')
 align_sequences(mouse_sequence, cat_sequence)
-
-
-
-
-
