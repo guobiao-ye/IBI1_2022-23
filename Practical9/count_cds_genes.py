@@ -9,7 +9,7 @@ else:
     output_file = f"{stop_codon}_stop_genes.fa"
 
     # Input file path and name
-    input_file = r'C:\Users\yh\IBI1_2022-23\Practical9\Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa'
+    input_file = r'Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa'
 
     # Open input file for reading
     with open(input_file, 'r') as f_in:
