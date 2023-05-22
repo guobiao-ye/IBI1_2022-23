@@ -1,7 +1,7 @@
 # Input file path and name
-input_file = r'C:\Users\yh\IBI1_2022-23\Practical9\Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa'
+input_file = r'Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa'
 # Output file path and name
-output_file = r'C:\Users\yh\IBI1_2022-23\Practical9\TGA_genes.fa'
+output_file = r'TGA_genes.fa'
 
 # Open input file for reading
 with open(input_file, 'r') as f_in:
